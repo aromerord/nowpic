@@ -1,0 +1,24 @@
+{
+  "name": "nowpic-service",
+  "version": "1.0.0",
+  "description": "- Iniciar el proyecto `npm init`\r - Instalar TypeScript `npm install -g typescript`\r - Crear archivo de config de TypeScript `tsc --init`\r - Añadir la dependencia `npm i --save-dev @types/express --save --dev` para el autocompletado en TypeScript.\r - Ejecutar el index.js `node dist/` o `node dist/index.js`\r - Ejecutar el index.ts `tsc index.ts` \r - Ejecutar TypeScript en modo observador `tsc -w` \r - Descomentar la linea de `outDir` y añadir `./dist\"`\r - Instalar nodemon para ejecutar el index de forma automática cada vez que hay cambios `npm install -g nodemon`\r - Añadir `\"dev\": \"nodemon dist/index.js\"` a los scripts del package.json para arrancar el proyecto en desarrollo con `npm run dev`\r - Añadir `\"start\": \"node dist/index.js\"` a los scripts del package.json para arrancar el proyecto en producción con `npm start`\r - Instalar `npm i express express-validator mongoose body-parser cors dotenv bcrypt express-fileupload jsonwebtoken`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Antonio Romero",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.2"
+  }
+}
